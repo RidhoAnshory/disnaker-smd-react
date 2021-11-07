@@ -1,14 +1,11 @@
 import React from "react";
-import { Title } from "./components";
+import { Navbar } from "./components";
 
 function App() {
   return (
-    <div className="App">
-      <p>Hello World!</p>
-      <Title>
-        Hello World! from title components with tailwindcss on style components
-      </Title>
-    </div>
+    <>
+      <Navbar></Navbar>
+    </>
   );
 }
 
